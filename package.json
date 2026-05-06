@@ -1,0 +1,53 @@
+{
+  "name": "recore-ftp",
+  "productName": "RECORE FTP",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "build:mac": "electron-vite build && electron-builder --mac",
+    "build:win": "electron-vite build && electron-builder --win",
+    "preview": "electron-vite preview",
+    "start": "electron-vite preview"
+  },
+  "keywords": [],
+  "author": "iRussellua",
+  "license": "MIT",
+  "build": {
+    "appId": "com.irussellua.recoreftp",
+    "productName": "RECORE FTP",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.developer-tools",
+      "icon": "resources/icon.png"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "electron": "^41.5.0",
+    "electron-builder": "^26.8.1",
+    "electron-vite": "^5.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1043.0",
+    "basic-ftp": "^6.0.1",
+    "check-disk-space": "^3.4.0",
+    "electron-store": "^11.0.2",
+    "googleapis": "^171.4.0",
+    "lucide-react": "^1.14.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "ssh2": "^1.17.0"
+  }
+}
