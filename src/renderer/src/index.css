@@ -1,0 +1,459 @@
+:root {
+  /* Default Theme (Modern Dark) */
+  --bg-primary: #121214;
+  --bg-secondary: #19191c;
+  --bg-sidebar: #0e0e10;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #e1e1e6;
+  --text-secondary: #a8a8b3;
+  --accent: #8257e5;
+  --border: #29292e;
+  --item-hover: rgba(130, 87, 229, 0.1);
+  --item-active: rgba(130, 87, 229, 0.2);
+}
+
+/* Theme: Latte (Light) */
+.latte {
+  --bg-primary: #eff1f5;
+  --bg-secondary: #e6e9ef;
+  --bg-sidebar: #dce0e8;
+  --bg-input: rgba(0,0,0,0.05);
+  --text-primary: #4c4f69;
+  --text-secondary: #6c6f85;
+  --accent: #1e66f5;
+  --border: #ccd0da;
+  --item-hover: rgba(30, 102, 245, 0.1);
+  --item-active: rgba(30, 102, 245, 0.2);
+}
+
+/* Theme: Frappé */
+.frappe {
+  --bg-primary: #303446;
+  --bg-secondary: #292c3c;
+  --bg-sidebar: #232634;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #c6d0f5;
+  --text-secondary: #a5adce;
+  --accent: #8caaee;
+  --border: #414559;
+  --item-hover: rgba(140, 170, 238, 0.1);
+  --item-active: rgba(140, 170, 238, 0.2);
+}
+
+/* Theme: Macchiato */
+.macchiato {
+  --bg-primary: #24273a;
+  --bg-secondary: #1e2030;
+  --bg-sidebar: #181926;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #cad3f5;
+  --text-secondary: #a5adcb;
+  --accent: #8aadf4;
+  --border: #363a4f;
+  --item-hover: rgba(138, 173, 244, 0.1);
+  --item-active: rgba(138, 173, 244, 0.2);
+}
+
+/* Theme: Mocha */
+.mocha {
+  --bg-primary: #1e1e2e;
+  --bg-secondary: #181825;
+  --bg-sidebar: #11111b;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #cdd6f4;
+  --text-secondary: #a6adc8;
+  --accent: #89b4fa;
+  --border: #313244;
+  --item-hover: rgba(137, 180, 250, 0.1);
+  --item-active: rgba(137, 180, 250, 0.2);
+}
+
+/* Theme: Bird (Purple Bird) */
+.bird {
+  --bg-primary: #1a1625;
+  --bg-secondary: #241d33;
+  --bg-sidebar: #110e1a;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #e0d7f2;
+  --text-secondary: #9a8bbd;
+  --accent: #bb9af7;
+  --border: #342c4a;
+  --item-hover: rgba(187, 154, 247, 0.1);
+  --item-active: rgba(187, 154, 247, 0.2);
+}
+
+/* Theme: Mint South */
+.mint {
+  --bg-primary: #0f1715;
+  --bg-secondary: #16211e;
+  --bg-sidebar: #0a110f;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #e0f2f1;
+  --text-secondary: #80cbc4;
+  --accent: #26a69a;
+  --border: rgba(80, 250, 123, 0.2);
+  --item-hover: rgba(80, 250, 123, 0.1);
+  --item-active: rgba(80, 250, 123, 0.2);
+  --success: #50fa7b;
+  --error: #ff5555;
+  --warning: #fcee0a;
+}
+
+/* Theme: Mint South Light */
+.mint-light {
+  --bg-primary: #f0f7f5;
+  --bg-secondary: #e2edeb;
+  --bg-sidebar: #d4e4e0;
+  --bg-input: #ffffff;
+  --text-primary: #05221b;
+  --text-secondary: #1a4d42;
+  --accent: #00695c;
+  --border: #bfd1cc;
+  --item-hover: rgba(0, 105, 92, 0.08);
+  --item-active: rgba(0, 105, 92, 0.15);
+  --success: #1b5e20;
+  --error: #b71c1c;
+  --warning: #e65100;
+}
+
+/* Theme: Merch Red (Light) */
+.merch-red {
+  --bg-primary: #ffffff;
+  --bg-secondary: #fdfdfd;
+  --bg-sidebar: #f8f8f8;
+  --bg-input: #ffffff;
+  --text-primary: #121212;
+  --text-secondary: #757575;
+  --accent: #d32f2f;
+  --border: #ececec;
+  --item-hover: rgba(211, 47, 47, 0.05);
+  --item-active: rgba(211, 47, 47, 0.1);
+  --success: #2e7d32;
+  --error: #d32f2f;
+  --warning: #f57c00;
+}
+
+/* Theme: Sand */
+.sand {
+  --bg-primary: #f4f1ea;
+  --bg-secondary: #e9e4d9;
+  --bg-sidebar: #dfd8c8;
+  --bg-input: #ffffff;
+  --text-primary: #433f38;
+  --text-secondary: #7a7467;
+  --accent: #8b7355;
+  --border: #d2cbb8;
+  --item-hover: rgba(139, 115, 85, 0.1);
+  --item-active: rgba(139, 115, 85, 0.2);
+  --success: #4caf50;
+  --error: #d32f2f;
+  --warning: #ffa000;
+}
+
+/* Theme: Amoled NEON */
+.amoled-neon {
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-sidebar: #050505;
+  --bg-input: #111111;
+  --text-primary: #ffffff;
+  --text-secondary: #888888;
+  --accent: #00ff00;
+  --border: #111111;
+  --item-hover: rgba(0, 255, 0, 0.1);
+  --item-active: rgba(0, 255, 0, 0.2);
+  --success: #00ff00;
+  --error: #ff0055;
+  --warning: #ffff00;
+}
+
+/* Theme: Vue High Contrast */
+.vue-hc {
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-sidebar: #000000;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #ffffff;
+  --text-secondary: #999999;
+  --accent: #42b883;
+  --border: #333333;
+  --item-hover: rgba(66, 184, 131, 0.1);
+  --item-active: rgba(66, 184, 131, 0.2);
+  --success: #42b883;
+  --error: #ff5555;
+  --warning: #ffb86c;
+}
+
+/* Theme: Gray Matter Dark */
+.gray-matter {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #222222;
+  --bg-sidebar: #141414;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #e0e0e0;
+  --text-secondary: #888888;
+  --accent: #5c5c5c;
+  --border: #333333;
+  --item-hover: rgba(255, 255, 255, 0.05);
+  --item-active: rgba(255, 255, 255, 0.1);
+}
+
+/* Theme: Gruvbox */
+.gruvbox {
+  --bg-primary: #282828;
+  --bg-secondary: #32302f;
+  --bg-sidebar: #1d2021;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #ebdbb2;
+  --text-secondary: #a89984;
+  --accent: #fe8019;
+  --border: #3c3836;
+  --item-hover: rgba(254, 128, 25, 0.1);
+  --item-active: rgba(254, 128, 25, 0.2);
+}
+
+/* Theme: Merko Green */
+.merko {
+  --bg-primary: #0a0f0a;
+  --bg-secondary: #0d140d;
+  --bg-sidebar: #050805;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #e0f0e0;
+  --text-secondary: #80a080;
+  --accent: #32cd32;
+  --border: #1a2a1a;
+  --item-hover: rgba(50, 205, 50, 0.1);
+  --item-active: rgba(50, 205, 50, 0.2);
+}
+
+/* Theme: Zenburn */
+.zenburn {
+  --bg-primary: #3f3f3f;
+  --bg-secondary: #4c4c4c;
+  --bg-sidebar: #2b2b2b;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #dcdccc;
+  --text-secondary: #9f9f9f;
+  --accent: #f0dfaf;
+  --border: #5f5f5f;
+  --item-hover: rgba(240, 223, 175, 0.1);
+  --item-active: rgba(240, 223, 175, 0.2);
+}
+
+/* Theme: Relaxed */
+.relaxed {
+  --bg-primary: #353a44;
+  --bg-secondary: #3e4451;
+  --bg-sidebar: #2d3139;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #d7dae0;
+  --text-secondary: #9da5b4;
+  --accent: #61afef;
+  --border: #4b5263;
+  --item-hover: rgba(97, 175, 239, 0.1);
+  --item-active: rgba(97, 175, 239, 0.2);
+}
+
+/* Theme: Vitesse Light */
+.vitesse {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --bg-sidebar: #f3f3f3;
+  --bg-input: rgba(0,0,0,0.05);
+  --text-primary: #393939;
+  --text-secondary: #6e6e6e;
+  --accent: #a31515;
+  --border: #e1e1e1;
+  --item-hover: rgba(163, 21, 21, 0.05);
+  --item-active: rgba(163, 21, 21, 0.1);
+}
+
+/* Theme: 2077 */
+.cyberpunk {
+  --bg-primary: #030d22;
+  --bg-secondary: #071330;
+  --bg-sidebar: #020817;
+  --bg-input: rgba(255,255,255,0.05);
+  --text-primary: #ff0055;
+  --text-secondary: #00ff9f;
+  --accent: #fcee0a;
+  --border: #00f3ff;
+  --item-hover: rgba(252, 238, 10, 0.15);
+  --item-active: rgba(252, 238, 10, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  height: calc(100vh - 25px); /* Minus status bar */
+}
+
+.sidebar {
+  width: 240px;
+  background-color: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px; /* For traffic lights */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  background-color: var(--bg-primary);
+}
+
+.file-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border);
+}
+
+.pane-header {
+  height: 40px;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  color: var(--text-secondary);
+}
+
+.tree-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  border-radius: 6px;
+  margin: 2px 4px;
+}
+
+.tree-item:hover {
+  background-color: var(--item-hover);
+  color: var(--text-primary);
+}
+
+.tree-item.active {
+  background-color: var(--item-active);
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.tree-item.selected {
+  background-color: var(--item-active);
+  color: var(--text-primary);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-dot.blue { background-color: #4a9eff; }
+.status-dot.red { background-color: #f44747; }
+.status-dot.green { background-color: #4ec9b0; }
+.status-dot.orange { background-color: #ce9178; }
+
+.status-bar {
+  height: 25px;
+  background-color: var(--bg-sidebar);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.add-btn {
+  margin: 16px;
+  height: 36px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--text-secondary);
+}
+
+.add-btn:hover {
+  background-color: var(--item-hover);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.rename-input {
+  background: var(--bg-primary);
+  border: 1px solid var(--accent);
+  color: var(--text-primary);
+  font-size: 12px;
+  padding: 2px 4px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+}
+
+.path-bar {
+  flex: 1;
+  font-family: "Fira Code", monospace;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.file-pane {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
