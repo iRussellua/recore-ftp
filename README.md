@@ -25,13 +25,18 @@ A premium, state-of-the-art FTP/SFTP client built with performance and aesthetic
 
 ### For macOS
 1. Download the latest `RECORE-FTP-Setup.dmg`.
-2. Drag RECORE FTP to your Applications folder.
-3. **Important (Security Notice)**: Since the app is not signed with an Apple Developer certificate, macOS might show a warning ("Damaged" or "Move to Trash"). To fix this:
-   - Open your terminal and run: 
-     ```bash
-     xattr -cr /Applications/RECORE\ FTP.app
-     ```
-   - Or: **Right-click** the app and select **Open**, then click **Open** again in the dialog.
+2. Drag **RECORE FTP** to your **Applications** folder.
+3. **Security Fix (Required for first run)**: macOS may say the app is "Damaged" or "Move to Trash" because it's not signed. To fix this, run this command in your Terminal:
+
+   ```bash
+   # If you moved it to Applications:
+   xattr -cr /Applications/RECORE\ FTP.app
+   
+   # If it's still in your Downloads:
+   xattr -cr ~/Downloads/RECORE\ FTP.app
+   ```
+
+4. **Alternative**: Right-click the app -> Select **Open** -> Click **Open** again.
 
 ### For Windows
 1. Download `RECORE-FTP-Setup.exe`.
